@@ -2,64 +2,166 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Datenschutzerkl&auml;rung / Privacy Policy &ndash; GDriveShow</title>
-        <style>
-            * { box-sizing: border-box; margin: 0; padding: 0; }
-                body {
-                      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-                            background: #0d1117;
-                                  color: #c9d1d9;
-                                        padding: 2rem;
-                                            }
-                                                .container { max-width: 760px; margin: 0 auto; }
-                                                    h1 { font-size: 1.8rem; color: #f0f6fc; margin-bottom: 0.3rem; }
-                                                        .subtitle { color: #8b949e; margin-bottom: 2rem; }
-                                                            h2 { font-size: 1.1rem; color: #e6edf3; margin: 1.8rem 0 0.6rem; border-left: 3px solid #1f6feb; padding-left: 0.7rem; }
-                                                                p { line-height: 1.7; margin-bottom: 0.8rem; }
-                                                                    a { color: #58a6ff; }
-                                                                        .section-de, .section-en { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 1.8rem; margin-bottom: 2rem; }
-                                                                            .lang-badge { display: inline-block; background: #21262d; border: 1px solid #30363d; border-radius: 4px; font-size: 0.75rem; padding: 0.15rem 0.5rem; margin-bottom: 1rem; color: #8b949e; }
-                                                                                footer { text-align: center; margin-top: 2rem; color: #484f58; font-size: 0.85rem; }
-                                                                                    footer a { color: #58a6ff; text-decoration: none; }
-                                                                                      </style>
-                                                                                      </head>
-                                                                                      <body>
-                                                                                      <div class="container">
-                                                                                        <h1>Datenschutzerkl&auml;rung / Privacy Policy</h1>
-                                                                                          <p class="subtitle">GDriveShow &mdash; Stand: 2025</p>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datenschutzerklaerung / Privacy Policy - G-Drive Show</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f5f7fa;
+      color: #333;
+      padding: 2rem 1rem;
+    }
+    .container { max-width: 800px; margin: 0 auto; }
+    .header {
+      background: linear-gradient(135deg, #1a8fd1 0%, #43c97e 100%);
+      border-radius: 16px;
+      padding: 2rem;
+      text-align: center;
+      margin-bottom: 2rem;
+      color: white;
+    }
+    .header img { width: 80px; height: 80px; border-radius: 16px; margin-bottom: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
+    .header h1 { font-size: 1.6rem; font-weight: 800; margin-bottom: 0.3rem; }
+    .header p { opacity: 0.85; font-size: 0.9rem; }
+    .section {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    .lang-label {
+      display: inline-block;
+      background: #e8f4fd;
+      color: #1a6fb5;
+      border-radius: 6px;
+      padding: 0.2rem 0.7rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-bottom: 1.2rem;
+    }
+    h2 { font-size: 1.05rem; color: #1a1a2e; margin: 1.4rem 0 0.5rem; border-left: 3px solid #1a8fd1; padding-left: 0.7rem; }
+    h2:first-of-type { margin-top: 0; }
+    p { line-height: 1.7; margin-bottom: 0.8rem; color: #444; font-size: 0.95rem; }
+    ul { margin: 0.5rem 0 0.8rem 1.5rem; }
+    ul li { line-height: 1.7; margin-bottom: 0.3rem; color: #444; font-size: 0.95rem; }
+    a { color: #1a6fb5; }
+    ol { margin: 0.5rem 0 0.8rem 1.5rem; }
+    ol li { line-height: 1.7; margin-bottom: 0.3rem; color: #444; font-size: 0.95rem; }
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.88rem; }
+    th { background: #f0f7ff; padding: 0.6rem 0.8rem; text-align: left; color: #1a1a2e; border-bottom: 2px solid #d0e8f8; }
+    td { padding: 0.6rem 0.8rem; border-bottom: 1px solid #e8eef4; color: #444; }
+    tr:last-child td { border-bottom: none; }
+    footer { text-align: center; margin-top: 2rem; color: #888; font-size: 0.82rem; padding-bottom: 2rem; }
+    footer a { color: #1a6fb5; text-decoration: none; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <img src="logo.png" alt="G-Drive Show Logo">
+    <h1>G-Drive Show</h1>
+    <p>Datenschutzerklaerung / Privacy Policy</p>
+  </div>
 
-                                                                                            <div class="section-de">
-                                                                                                <span class="lang-badge">&#127465;&#127466; Deutsch</span>
-                                                                                                    <h2>1. Verantwortlicher</h2>
-                                                                                                        <p>Diese Anwendung (GDriveShow) wird privat betrieben. Bei Fragen zum Datenschutz wenden Sie sich bitte &uuml;ber GitHub an den Betreiber.</p>
-                                                                                                            <h2>2. Welche Daten werden verarbeitet?</h2>
-                                                                                                                <p>GDriveShow greift mit Ihrer ausdr&uuml;cklichen Zustimmung &uuml;ber die Google Drive API auf Ihren Google-Drive-Inhalt zu. Es werden ausschlie&szlig;lich die Dateien verarbeitet, die Sie selbst ausw&auml;hlen. Die Anwendung speichert keine personenbezogenen Daten auf eigenen Servern.</p>
-                                                                                                                    <h2>3. OAuth 2.0 / Google-Anmeldung</h2>
-                                                                                                                        <p>Die Authentifizierung erfolgt &uuml;ber Googles OAuth-2.0-Dienst. Dabei &uuml;bermitteln Sie Ihr Google-Konto an Google, nicht an GDriveShow. GDriveShow erh&auml;lt nur das f&uuml;r den Zugriff notwendige Zugriffstoken.</p>
-                                                                                                                            <h2>4. Drittanbieter</h2>
-                                                                                                                                <p>Es werden keine Daten an Dritte weitergegeben. Die Google-APIs unterliegen den <a href="https://policies.google.com/privacy" target="_blank">Datenschutzbestimmungen von Google</a>.</p>
-                                                                                                                                    <h2>5. Ihre Rechte</h2>
-                                                                                                                                        <p>Sie k&ouml;nnen den Zugriff jederzeit in Ihrem <a href="https://myaccount.google.com/permissions" target="_blank">Google-Konto unter &bdquo;Verbundene Apps&ldquo;</a> widerrufen.</p>
-                                                                                                                                          </div>
-                                                                                                                                          
-                                                                                                                                            <div class="section-en">
-                                                                                                                                                <span class="lang-badge">&#127468;&#127463; English</span>
-                                                                                                                                                    <h2>1. Data Controller</h2>
-                                                                                                                                                        <p>GDriveShow is privately operated. For privacy inquiries, please contact the operator via GitHub.</p>
-                                                                                                                                                            <h2>2. What data is processed?</h2>
-                                                                                                                                                                <p>GDriveShow accesses your Google Drive content via the Google Drive API only with your explicit consent. Only the files you select are processed. The application does not store any personal data on its own servers.</p>
-                                                                                                                                                                    <h2>3. OAuth 2.0 / Google Sign-In</h2>
-                                                                                                                                                                        <p>Authentication is handled via Google's OAuth 2.0 service. Your Google account credentials are transmitted to Google, not to GDriveShow. GDriveShow only receives the access token required to read your selected files.</p>
-                                                                                                                                                                            <h2>4. Third Parties</h2>
-                                                                                                                                                                                <p>No data is shared with third parties. Google APIs are subject to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</p>
-                                                                                                                                                                                    <h2>5. Your Rights</h2>
-                                                                                                                                                                                        <p>You can revoke access at any time in your <a href="https://myaccount.google.com/permissions" target="_blank">Google Account under "Third-party apps with account access"</a>.</p>
-                                                                                                                                                                                          </div>
-                                                                                                                                                                                          
-                                                                                                                                                                                            <footer>
-                                                                                                                                                                                                <a href="index.html">&larr; Back to GDriveShow</a>
-                                                                                                                                                                                                  </footer>
-                                                                                                                                                                                                  </div>
-                                                                                                                                                                                                  </body>
-                                                                                                                                                                                                  </html>
+  <div class="section">
+    <span class="lang-label">Deutsch</span>
+    <p><strong>Stand: Juni 2025</strong></p>
+
+    <h2>1. Verantwortlicher</h2>
+    <p>Matthias Gruhl<br>E-Mail: <a href="mailto:ets.dev.dd@gmail.com">ets.dev.dd@gmail.com</a></p>
+
+    <h2>2. Welche Daten werden verarbeitet?</h2>
+    <p>G-Drive Show verarbeitet ausschliesslich Daten, die fuer den Betrieb der App notwendig sind:</p>
+    <ul>
+      <li><strong>Google-Konto-Authentifizierung:</strong> Die App verwendet Google OAuth 2.0, um Zugriff auf deinen Google Drive zu erhalten. Dabei werden keine Passwoerter gespeichert. Das OAuth-Token wird ausschliesslich lokal auf deinem Geraet gespeichert.</li>
+      <li><strong>Google Drive-Inhalte:</strong> Die App greift nur lesend auf Fotos und Bilder in deinem Google Drive zu (Scope: drive.readonly). Dateien werden nicht hochgeladen, veraendert oder geloescht.</li>
+      <li><strong>Werbung:</strong> Die App nutzt Google AdMob zur Einblendung von Bannerwerbung. AdMob kann dabei geraetebezogene Daten zur Personalisierung von Werbung verarbeiten. Weitere Informationen findest du in der <a href="https://policies.google.com/privacy" target="_blank">Google-Datenschutzerklaerung</a>.</li>
+    </ul>
+
+    <h2>3. Keine eigenen Server</h2>
+    <p>G-Drive Show betreibt keine eigenen Server. Es werden keine persoenlichen Daten an den Entwickler uebermittelt oder gespeichert.</p>
+
+    <h2>4. In-App-Kaeufe</h2>
+    <p>Die App bietet einen einmaligen In-App-Kauf zur Deaktivierung von Werbung an. Die Abwicklung erfolgt ausschliesslich ueber den Google Play Store. Der Entwickler hat keinen Zugriff auf Zahlungsdaten.</p>
+
+    <h2>5. Drittanbieter</h2>
+    <table>
+      <tr><th>Dienst</th><th>Zweck</th><th>Datenschutz</th></tr>
+      <tr><td>Google OAuth 2.0</td><td>Anmeldung &amp; Drive-Zugriff</td><td><a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></td></tr>
+      <tr><td>Google AdMob</td><td>Werbeanzeigen</td><td><a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></td></tr>
+      <tr><td>Google Play Billing</td><td>In-App-Kauf</td><td><a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></td></tr>
+    </table>
+
+    <h2>6. Berechtigungen</h2>
+    <ul>
+      <li><strong>Internet:</strong> Fuer den Zugriff auf Google Drive und die Einblendung von Werbung.</li>
+    </ul>
+
+    <h2>7. Deine Rechte &ndash; Zugriff widerrufen &amp; Daten loeschen</h2>
+    <p>Da G-Drive Show keine eigene Nutzerdatenbank betreibt, gibt es kein app-eigenes Konto das geloescht werden koennte. Alle Daten liegen in deinem Google-Konto.</p>
+    <p>So widerrufst du den App-Zugriff und loeschst alle Verbindungsdaten:</p>
+    <ol>
+      <li>Oeffne <a href="https://myaccount.google.com/" target="_blank">myaccount.google.com</a></li>
+      <li>Navigiere zu <strong>Sicherheit &rarr; Drittanbieter-Apps mit Kontozugriff</strong></li>
+      <li>Waehle <strong>G-Drive Show</strong> aus</li>
+      <li>Klicke auf <strong>Zugriff entfernen</strong></li>
+    </ol>
+    <p>Damit wird das OAuth-Token sofort ungueltig. Die App kann danach nicht mehr auf deinen Google Drive zugreifen. Lokal auf dem Geraet gespeicherte Token-Daten werden beim naechsten App-Start automatisch entfernt.</p>
+    <p>Fuer weitere Fragen zum Datenschutz wende dich an: <a href="mailto:ets.dev.dd@gmail.com">ets.dev.dd@gmail.com</a></p>
+  </div>
+
+  <div class="section">
+    <span class="lang-label">English</span>
+    <p><strong>Last updated: June 2025</strong></p>
+
+    <h2>1. Data Controller</h2>
+    <p>Matthias Gruhl<br>Email: <a href="mailto:ets.dev.dd@gmail.com">ets.dev.dd@gmail.com</a></p>
+
+    <h2>2. What data is processed?</h2>
+    <p>G-Drive Show processes only data necessary for the app to function:</p>
+    <ul>
+      <li><strong>Google Account Authentication:</strong> The app uses Google OAuth 2.0 to access your Google Drive. No passwords are stored. The OAuth token is stored locally on your device only.</li>
+      <li><strong>Google Drive Content:</strong> The app accesses photos and images in your Google Drive in read-only mode (scope: drive.readonly). No files are uploaded, modified, or deleted.</li>
+      <li><strong>Advertising:</strong> The app uses Google AdMob to display banner advertisements. AdMob may process device-related data for ad personalization. For more information, see the <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a>.</li>
+    </ul>
+
+    <h2>3. No Own Servers</h2>
+    <p>G-Drive Show does not operate any servers. No personal data is transmitted to or stored by the developer.</p>
+
+    <h2>4. In-App Purchases</h2>
+    <p>The app offers a one-time in-app purchase to remove advertisements. All transactions are processed exclusively through the Google Play Store. The developer has no access to payment data.</p>
+
+    <h2>5. Third-Party Services</h2>
+    <table>
+      <tr><th>Service</th><th>Purpose</th><th>Privacy Policy</th></tr>
+      <tr><td>Google OAuth 2.0</td><td>Sign-in &amp; Drive access</td><td><a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></td></tr>
+      <tr><td>Google AdMob</td><td>Advertisements</td><td><a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></td></tr>
+      <tr><td>Google Play Billing</td><td>In-app purchase</td><td><a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></td></tr>
+    </table>
+
+    <h2>6. Permissions</h2>
+    <ul>
+      <li><strong>Internet:</strong> To access Google Drive and display advertisements.</li>
+    </ul>
+
+    <h2>7. Your Rights &ndash; Revoking Access &amp; Deleting Data</h2>
+    <p>G-Drive Show does not operate its own user database, so there is no app-specific account to delete. All data resides within your Google Account.</p>
+    <p>To revoke app access and delete all associated data:</p>
+    <ol>
+      <li>Open <a href="https://myaccount.google.com/" target="_blank">myaccount.google.com</a></li>
+      <li>Navigate to <strong>Security &rarr; Third-party apps with account access</strong></li>
+      <li>Select <strong>G-Drive Show</strong></li>
+      <li>Click <strong>Remove access</strong></li>
+    </ol>
+    <p>This immediately invalidates the OAuth token. The app can no longer access your Google Drive. Any token data stored locally on the device will be automatically removed on the next app launch.</p>
+    <p>For privacy-related inquiries, please contact: <a href="mailto:ets.dev.dd@gmail.com">ets.dev.dd@gmail.com</a></p>
+  </div>
+
+  <footer>
+    <a href="index.html">&larr; Zur&uuml;ck zu G-Drive Show / Back to G-Drive Show</a>
+  </footer>
+</div>
+</body>
+</html>
